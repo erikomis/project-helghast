@@ -40,6 +40,12 @@ Screenshots of the current build, by milestone: [docs/SCREENSHOTS.md](docs/SCREE
 
 ---
 
+## Project metadata
+
+Project metadata for directories and tools lives in [`.recomp.json`](.recomp.json),
+following the [recomp.board specification](https://recomp.fyi/spec). Keep it
+updated when the project status, supported game version or target platforms change.
+
 ## Compatibility
 
 | Platform | How it runs | Renderer | State | Tested on |

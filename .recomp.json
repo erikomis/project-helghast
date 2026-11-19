@@ -11,11 +11,12 @@
   },
   "project": "Project Helghast",
   "status": "in-progress",
-  "targets": ["PC (Windows)"],
+  "targets": ["Windows"],
   "toolchain": ["ps3recomp"],
   "approach": "Static recompilation of the PPU and SPU code to C with ps3recomp, HLE system libraries, Direct3D 12 RSX backend",
   "maintainers": [{"name": "undecuple", "link": "https://github.com/undecuple"}],
   "links": [
+    {"label": "Upstream project", "url": "https://github.com/undecuple/project-helghast"},
     {"label": "Site", "url": "https://undecuple.github.io/project-helghast"},
     {"label": "Features", "url": "https://github.com/undecuple/project-helghast/blob/main/docs/FEATURES.md"},
     {"label": "Requirements", "url": "https://github.com/undecuple/project-helghast/blob/main/docs/requirements.md"},
@@ -25,5 +26,5 @@
   ],
   "help": ["Testing on real Windows with NVIDIA GPUs", "RSX/graphics performance"],
   "tags": ["cell", "spurs", "d3d12"],
-  "notes": "Needs your own copy of the game (disc dump, the 1.14 update and its decrypted EBOOT); the build happens on your PC."
+  "notes": "The upstream README reports partly playable levels with known bugs and performance below the PS3 target. The Windows build also runs under Proton on Linux; the full campaign has not been validated. This fork has no releases of its own."
 }
